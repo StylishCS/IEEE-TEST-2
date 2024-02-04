@@ -1,0 +1,43 @@
+.main-table {
+    margin: 2rem auto;
+}
+
+.main-table table {
+    margin-top: 1rem;
+}
+
+.main-table table thead th,
+.main-table table tbody td,
+.main-table table a {
+    color: var(--second-font-color) !important;
+}
+
+.table-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.table-data {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+
+}
+
+/* Optional: Set height for parent containers to 100% */
+.main-table td {
+    height: 50px;
+}
+
+.table-header {
+    color: var(--second-font-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

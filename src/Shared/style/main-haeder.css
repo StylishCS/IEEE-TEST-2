@@ -1,0 +1,71 @@
+.main-header {
+    height: 60vh;
+    padding-top: 10vh;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-header {
+        height: 70vh;
+        padding-top: 20vh;
+
+    }
+}
+
+.main-header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-header .container .content {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-header .container .content {
+        width: 100%;
+    }
+}
+
+.main-header .container .content h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.main-header .container .content p {
+    width: 80%;
+    font-size: 1.3rem;
+}
+
+
+
+.main-header.gradient {
+    background: linear-gradient(225deg, rgba(24, 43, 85, 1) 0%, rgba(24, 43, 85, 0.8) 50%, rgba(24, 43, 85, 0.78) 100%);
+    background-size: 200% 200%;
+    animation: gradient-animation 7s ease infinite;
+    -webkit-animation: gradient-animation 7s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

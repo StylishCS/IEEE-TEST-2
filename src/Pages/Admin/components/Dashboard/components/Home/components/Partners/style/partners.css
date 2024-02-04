@@ -1,0 +1,16 @@
+.main-table.partners-table {
+    width: 85%;
+}
+
+/* small */
+@media only screen and (max-width: 767px) {
+    .main-table.partners-table {
+        width: 100%;
+    }
+}
+
+.alert-container.container.successMsg {
+    width: 90%;
+    margin: 1rem auto;
+
+}
