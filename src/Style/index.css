@@ -76,6 +76,10 @@ a {
 
 }
 
+section {
+    margin: 10rem 0;
+}
+
 .main-btn {
     padding: 1rem 2rem;
     background-color: var(--second-font-color);

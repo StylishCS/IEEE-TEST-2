@@ -10,6 +10,7 @@ import Family from "./Pages/Admin/components/Dashboard/components/Home/component
 import Achieveiments from "./Pages/Admin/components/Dashboard/components/Home/components/Achievements/Achieveiments";
 import { Partners } from "./Pages/Admin/components/Dashboard/components/Home/components/Partners/Partners";
 import { Testimonials } from "./Pages/Admin/components/Dashboard/components/Home/components/Testimonials/Testimonials";
+import Login from "./Pages/Admin Auth/Login/Login";
 
 export const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
       },
     ],
     errorElement: <NotFound />,
+  },
+  {
+    path: "/adminLogin",
+    element: <Login />,
   },
 ]);
 export default router;

@@ -1,0 +1,94 @@
+.login-section {
+    height: 60vh;
+}
+
+.login-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.login-section .container .login-form {
+    width: 60%;
+    background-color: var(--main-bg);
+    padding: 3rem;
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+}
+
+.login-section .container .login-form .logo {
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-section .container .login-form .logo img {
+    width: 100%;
+}
+
+.login-section .container .login-form form .input-container {
+    border: 1px solid var(--main-font-color);
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.login-section .container .login-form form .input-container {}
+
+.login-section .container .login-form form input {
+    background-color: transparent;
+    padding: 1rem;
+    color: var(--main-font-color);
+    border: none;
+    box-shadow: none;
+}
+
+.login-section .container .login-form form .input-container svg {
+    font-size: 1.2rem;
+}
+
+.login-section .container .login-form form .input-container button {
+    background-color: transparent;
+    padding: 1rem;
+    color: var(--main-font-color);
+    border: none;
+}
+
+.login-section .container .login-form form input::placeholder {
+    color: var(--main-font-color);
+}
+
+.login-section .container .login-form form .main-btn.login-btn {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: block;
+    padding: 0.5rem 2rem;
+}
+
+.login-error {
+    width: 100%;
+}
+
+.error-message {
+    margin-bottom: 1rem;
+    color: red;
+    font-weight: 500;
+}

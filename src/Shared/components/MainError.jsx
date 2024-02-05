@@ -1,10 +1,10 @@
 import React from "react";
 import Alert from "react-bootstrap/Alert";
-const MainError = ({ msg, className }) => {
+const MainError = ({ msg, className, variant }) => {
   return (
-    <div className={`alert-container container ${className}`}>
-      <Alert variant={"danger"}>{msg}</Alert>
-    </div>
+    <Alert className={className || "main-error"} variant={variant || "danger"}>
+      {msg}
+    </Alert>
   );
 };
 
