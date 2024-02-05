@@ -4,9 +4,9 @@ import imgProfile from "../../Assets/user/user.png";
 import logo from "../../Assets/logos/horizontal logo.png";
 import "../style/AdminNavbar.css";
 import SideMenu from "../../Pages/Admin/components/Side Menu/SideMenu";
+import { getAuthUser } from "../../Helper/Storage";
 const AdminNavbar = () => {
-  // const admin = getAuthUser();
-
+  const user = getAuthUser();
   return (
     <nav className="Admin-nav">
       <div className="container nav-container adminNav-container ">
@@ -18,19 +18,10 @@ const AdminNavbar = () => {
         <div className="right">
           <div className="admin-data">
             <div className="admin-img">
-              <img
-                src={
-                  // admin.image === "http://localhost:5000/"
-                  //   ? imgProfile
-                  //   : admin.image
-                  imgProfile
-                }
-                alt=""
-              />
+              <img src={user.image} alt="" />
             </div>
             <div className="admin-name">
-              {/* <span>{admin.name}</span> */}
-              <span>Ali muhammed</span>
+              <span>{user.name}</span>
             </div>
           </div>
 

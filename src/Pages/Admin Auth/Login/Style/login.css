@@ -92,3 +92,44 @@
     color: red;
     font-weight: 500;
 }
+
+
+.role-btns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+}
+
+.role-btns .role-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: var(--main-font-color);
+    background-color: var(--main-bg);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 70%;
+    margin: 0 auto;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    border: none;
+}
+
+.role-btns .role-btn:hover {
+    background-color: var(--second-font-color);
+}
+
+.role-btns .role-btn svg {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
