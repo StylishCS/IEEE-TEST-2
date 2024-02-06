@@ -55,7 +55,7 @@ export const Partners = () => {
   }, [partners.reload]);
 
   return (
-    <>
+    
       <section className="partners-section">
         <MainHeader
           title={"Our Partners"}
@@ -83,6 +83,6 @@ export const Partners = () => {
           
         </div>
       </section>
-    </>
+    
   );
 };

@@ -1,4 +1,4 @@
-.testimonialsTitle{
+/*.testimonialsTitle{
     text-align: center;
     font-size: xx-large;
     font-weight: 600;
@@ -116,11 +116,11 @@ tbody tr:last-of-type{
 }
 
 .inputBox{
-    /* position: absolute; */
-    width: 250px;
+    /* position: absolute; 
+width: 250px;
 }
 
-.inputBox input{
+.inputBox input {
     width: 100%;
     padding: 10px;
     border: 1px solid #025f5f;
@@ -131,7 +131,7 @@ tbody tr:last-of-type{
     font-size: 1rem;
 }
 
-.inputBox span{
+.inputBox span {
     padding: 10px;
     pointer-events: none;
     font-size: 1em;
@@ -140,19 +140,22 @@ tbody tr:last-of-type{
     font-weight: 600;
 }
 
-.modalFooter{
+.modalFooter {
     display: flex;
     flex-direction: row;
 }
 
-.modalFooter .Btn{
+.modalFooter .Btn {
     margin-left: 10px;
     max-width: 20%;
 }
 
-.deleteBtn{
+.deleteBtn {
     background-color: rgb(157, 25, 25);
 }
-.deleteBtn:hover{
+
+.deleteBtn:hover {
     background-color: rgb(188, 88, 88);
 }
+
+*/

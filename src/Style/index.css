@@ -153,9 +153,18 @@ section {
     height: 20px;
 }
 
-.alert-container.container {
+.alert-danger.successMsg,
+.alert-success.successMsg {
     text-align: center;
-    width: 80%;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+.main-spinner.table-spinner {
+    background-color: var(--main-bg);
+    width: 60px;
+    height: 60px;
 }
 
 /*end glopal rules */
