@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import imgProfile from "../../../../Assets/user/user.png";
 import "./style/sideMenu.css";
 import { MdElectricalServices } from "react-icons/md";
 import { IoIosPeople } from "react-icons/io";

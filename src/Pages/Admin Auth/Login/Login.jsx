@@ -6,7 +6,6 @@ import { MdEmail } from "react-icons/md";
 import { FaLock, FaUserCircle } from "react-icons/fa";
 import "./Style/login.css";
 import http from "../../../Helper/http";
-import Cookies from "js-cookies";
 import MainSpinner from "./../../../Shared/components/MainSpinner";
 import MainError from "./../../../Shared/components/MainError";
 import { setAuthUser } from "../../../Helper/Storage";
@@ -79,8 +78,6 @@ const Login = () => {
         console.log(res);
         setAuthUser(res);
         setMainError("");
-        const cookieValue = Cookies.getItem("token");
-        console.log("Cookie Value:", cookieValue);
         navigate("/admin/dashboard/home");
       })
       .catch((err) => {
